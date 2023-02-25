@@ -50,11 +50,11 @@
     <div class="h-screen grid absolute inset-0">
         <div class="hero">
             <div class="grid h-full w-full">
-                <div class="pt-8 md:pr-[72px] pl-6 md:pl-20 pb-0">
+                <div class="pt-8 md:pr-[72px] pl-6 md:pl-20 pb-0 h-0">
                     <Navbar />
                 </div>
                 <anime-info
-                    class="flex justify-center items-center md:items-start gap-11 flex-col md:flex-row mt-12 md:mt-20"
+                    class="flex justify-center items-center md:items-start gap-11 flex-col md:flex-row ml-5 sm:ml-0 mt-0 md:mt-20"
                 >
                     <div class="flex gap-7">
                         <!-- Anime image card  -->
@@ -175,7 +175,7 @@
                         </div>
                         <button
                             class="btn btn-sm  text-sm normal-case glass btn-disabled mt-5 gap-4 text-white flex-nowrap"
-                            style="--glass-blur:20px;--glass-reflex-degree:360deg;--glass-reflex-opacity:0;--glass-opacity:10%"
+                            style="--glass-blur:20px;--glass-reflex-degree:90deg;--glass-reflex-opacity:0;--glass-opacity:10%"
                         >
                             <div>
                                 <span>Score :</span>
@@ -260,7 +260,7 @@
                         </p>
                     </anime-ratings>
                 </anime-info>
-                <episode>
+                <episode class="ml-2 md:ml-10">
                     <div class="flex gap-1">
                         <h1 class="font-bond text-lg text-white">Episodes</h1>
                         <button class="btn btn-square btn-sm">
